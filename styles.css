@@ -1,0 +1,85 @@
+.bigfont {
+  font-size: large;
+}
+
+.smallfont {
+  font-size: small;
+}
+
+.colorblue {
+  color: blue;
+}
+
+.colorgreen {
+  color: green;
+}
+
+.titlemargin_l {
+  margin-bottom: 40px;
+}
+
+.titlemargin_s {
+  margin-bottom: 20px;
+}
+
+.postersize {
+  width: 500px;
+}
+
+.title{
+  text-align: center;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+.center {
+  margin-top: 20px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  /*border: 3px solid gray;*/
+  padding: 10px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 5px;
+  font-size:25px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Linkedin */
+.fa-linkedin {
+  background: #000000;
+  color: white;
+}
+
+/* Stackoverflow */
+.fa-stack-overflow {
+  background: #000000;
+  color: white;
+}
+
+/* Github */
+.fa-github {
+  background: #000000;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #000000;
+  color: white;
+}
