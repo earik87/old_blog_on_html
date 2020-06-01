@@ -1,85 +1,90 @@
-.bigfont {
-  font-size: large;
-}
-
-.smallfont {
-  font-size: small;
-}
-
-.colorblue {
+h2   {
   color: blue;
-}
-
-.colorgreen {
-  color: green;
-}
-
-.titlemargin_l {
-  margin-bottom: 40px;
-}
-
-.titlemargin_s {
   margin-bottom: 20px;
 }
 
-.postersize {
-  width: 500px;
+.bluecolor {
+  color: blue;
 }
 
-.title{
-  text-align: center;
+.graycolor { 
+  color: gray;
 }
 
-.textcenter {
-  text-align: center;
+.redcolor { 
+  color: red;
+}
+div.leavemargin {
+  margin-top: 80px;
+  margin-bottom: 20px;
 }
 
-.center {
+img.rounded-corners {
+  border-radius:30px;
+}
+
+.topmargin {
   margin-top: 20px;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  /*border: 3px solid gray;*/
-  padding: 10px;
 }
 
-/* Style all font awesome icons */
-.fa {
-  padding: 5px;
-  font-size:25px;
-  width: 50px;
+.bottommargin {
+  margin-bottom: 20px;
+}
+
+img.topmargin {
+  margin-top: 20px;
+}
+
+.bigfont {
+  font-size: 30px;
+}
+
+.rightaligned {
+  text-align: right;
+}
+
+.centered {
   text-align: center;
+}
+
+p.ex1 {
+  margin-bottom: 2em;
+}
+
+.responsive-image {
+  height: auto;
+  width: 100%;
+}
+
+/* a:link {
+  color: black;
+  background-color: transparent;
   text-decoration: none;
 }
+a:visited {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+} */
+/* a:hover {
+  color:red;
+  background-color: transparent;
+  text-decoration: underline;
+} */
+/* a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+} */
 
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
 }
 
-/* Set a specific color for each brand */
-
-/* Linkedin */
-.fa-linkedin {
-  background: #000000;
-  color: white;
-}
-
-/* Stackoverflow */
-.fa-stack-overflow {
-  background: #000000;
-  color: white;
-}
-
-/* Github */
-.fa-github {
-  background: #000000;
-  color: white;
-}
-
-/* Twitter */
-.fa-twitter {
-  background: #000000;
-  color: white;
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
 }

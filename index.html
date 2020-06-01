@@ -1,65 +1,67 @@
 <!DOCTYPE html>
-
 <html lang="en">
     <head>
-        <!--Required Meta Tags (it is necessary for zooming in mobile devices-->
+        <title>Home page of Enis Arik</title>
+
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Bootstrap CSS -->
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
-        <!-- Add icon library -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Ref to bootstrap css -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        
+        <!-- Ref to my own styless.css file -->
+        <link rel="stylesheet" type="text/css" href="styles.css" media="screen, projection" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>    
+    </head>        
+    <body>
+        <nav class="navbar fixed-top navbar-expand-sm bg-dark navbar-dark justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">About Me</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="bio.html">Bio</a>
+                </li>
 
-        <!--Link styles.css file for all style.-->
-        <link href="styles.css" rel="stylesheet">
-
-        <!--title of page-->
-        <title>Enis Arik Blog</title>
-
-        <!--Navigation Bar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <ul class="navbar-nav mx-auto">
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="index.html">Home</a>
-                        <!-- <a class="nav-item nav-link" href="movies.html">Movies</a>
-                        <a class="nav-item nav-link" href="coffee.html">Coffee</a>
-                        <a class="nav-item nav-link" href="soccer.html">Soccer</a> -->
-                </div>
-            </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="research.html">Research</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog Articles</a>
+                </li>
             </ul>
         </nav>
-        <!-- JavaScript -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    </head>
-
-    <body>
-        <div class="center">
-            <img src="profil.jpg" alt="profile pic" class="pull-left mr-5" height="400">
-
-            <h2 class="colorblue">About Me</h2>
-
-            <p class="bigfont">Hi! 
-                    My name is Enis Arik and I am a software engineer at Infor. 
-                    In this blog, I will be writing about software and other things. 
-                    I am interested in back-end programming, soccer and coffee. I love watching movies / tv-series and making critics about them. <br> </p>
-
-            <!-- Add font awesome icons -->
-            <h2>Social Media</h2>
-            <p>
-                <a href="https://www.linkedin.com/in/enisarik/" class="fa fa-linkedin"></a>
-                <a href="https://stackoverflow.com/users/11000382/earik87?tab=profile" class="fa fa-stack-overflow"></a>
-                <a href="https://github.com/earik87" class="fa fa-github"></a>
-                <a href="https://twitter.com/earik87" class="fa fa-twitter"></a>
-            </p>
+        <div class="container">
+            <div class="row"> 
+                <div class="col-sm-2 leavemargin">
+				</div>  	
+				<div class="col-sm-8 leavemargin">
+					<h2 class="colorblue">About Me</h2>
+					<p>
+                        Hi! 
+                        My name is <b>Enis Arik</b> and I am a <span style="color:blue">software engineer</span> at Infor. 
+                        In this blog, I will be writing about software and other things. 
+                        I am interested in <span style="color:red">programming</span>, <span style="color:green">soccer</span> and 
+                        <span style="color:rgb(255, 0, 200)">coffee</span>. I love watching movies / tv-series and making critics about them. 
+                        <br> 
+                    </p>
+                    
+                    <b>Social Media:</b>
+                        <a href="https://www.linkedin.com/in/enisarik/" target="_blank">LinkedIn</a> | 
+                        <a href="https://stackoverflow.com/users/11000382/earik87?tab=profile" target="_blank">Stackoverflow</a> | 
+                        <a href="https://github.com/earik87" target="_blank">Github</a> |
+                        <a href="https://scholar.google.com/citations?user=WhyLeAoAAAAJ&hl=en" target="_blank">Google Scholar</a> |
+                        <a href="https://twitter.com/earik87" target="_blank">Twitter</a> 
+                    <img src="desert.jpeg" class="responsive-image rounded-corners topmargin" alt="Enis Arik" height="500"><br>
+                    <p class="centered">"We are just a sand in this universe". Merzouga Desert, Morocco. 2018</p>
+                </div>
+                <div class="col-sm-2 leavemargin">
+                </div>
+            </div>
         </div>
     </body>
 </html>
